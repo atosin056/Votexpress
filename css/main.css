@@ -1,0 +1,235 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins';
+}
+.sidebar{
+	background: #222d32;
+	width: 300px;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+#logout{
+	display: none;
+}
+#logout1{
+	display: none;
+}
+#logout11{
+	display: block;
+}
+.sub{
+	background: #3c8dbc;
+	width: 100% !important;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+}
+#sure{
+	display: none;
+}
+.nav-bar{
+	background: #ecf0f5;
+	width: 80%;
+	height: 100% !important;
+	padding: 0;
+	margin: 0;
+}
+.navbar{
+	background: #3c8dbc;
+	width: 100% !important;
+	height: 54px;
+	color: white;
+}
+.content{
+	background: transparent;
+	height: 555px;
+	margin-top: 7px;
+}
+.cards{
+	background: inherit;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	color: white;
+}
+.cards h3{
+	font-weight: 600;
+}
+.blue{
+	background: #00c0ef !important;
+}
+.orange{
+	background: #f39c12 !important;
+}
+.green{
+	background: #00a65a !important;
+}
+/* Add CSS for bounce animation */
+@keyframes bounceIn {
+     0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+    50% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    
+}
+
+.popup.show {
+    display: block;
+}
+.bounce {
+    animation: bounceIn 0.5s backwards;
+}
+@keyframes myBounce {
+     0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+    50% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    
+}
+
+@keyframes Bounce1{
+     0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+    50% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    
+}
+
+.pop.show {
+    display: block;
+}
+.bounty {
+    animation: bounceIn 0.5s backwards;
+}
+.pop1.show {
+    display: block;
+}
+.bounty11 {
+    animation: bounceIn 0.5s backwards;
+}
+.hover{
+	width: 100% !important;
+	height: 50px;
+	background: transparent;
+	margin-top: 0px;
+	color: #4b646f;
+	padding-left: 25px;
+	display: flex;
+	align-items: center;
+	padding-top: 13px;
+	font-weight: 300;
+	transition-duration: 500ms;
+}
+.hover:hover{
+	background: #1a2226;
+	color: white;
+}
+.red:hover{
+	color: red !important;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.candidate{
+	background: white;
+	width: 300px;
+	height: 300px;
+	box-shadow: 1px 1px 20px grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+.candidate-content{
+	background: transparent;
+}
+.vote-button{
+	background: green;
+	width: 100% !important;
+	height: 40px;
+}
+.error-message{
+	background: #ff000061;
+	border-left: 6px solid red;
+	width: 100% !important;
+	height: 50px;
+	display: flex;
+	align-items: center !important;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px; 
+}
+.error-message p{
+	color: red;
+	padding-left: 10px;
+	font-size: 14px;
+	padding-top: 18px;
+}
+.head{
+	box-shadow: 1px 1px 10px #e8e8e8;
+	border: 1px solid #c0c0c0;
+	padding: 10px;
+	width: 100%;
+	font-weight: 500;
+}
+.body{
+	width: 100%;
+	border: 1px solid #e8e8e8;
+	padding: 10px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+.delete-button{
+	width: 70px;
+	height: 40px;
+	border: none;
+	background: #3c8dbc;
+	border-radius: 5px;
+	color: white;
+
+}
+.delete-button:hover{
+	
+}
+.popup1.show {
+    display: block;
+}
+.bounce1 {
+    animation: bounceIn 0.5s backwards;
+}
+.body:hover{
+	background: #e2e5e2 !important;
+	cursor: pointer;
+}
